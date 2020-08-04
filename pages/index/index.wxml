@@ -1,0 +1,49 @@
+<!-- 轮播图 -->
+<swiper indicator-dots="true" circular="true" autoplay="true" duration="500" interval="3000" indicator-color="#fff">
+  <swiper-item>
+    <image src="../../images/sanfan1.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../images/sanfan2.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="../../images/sanfan3.jpg"></image>
+  </swiper-item>
+</swiper>
+<!-- 中间按钮 -->
+<view class="container">
+  <view class="anniu">
+    <view class="anniu_1">
+      <view class="diancan">
+        <view class="chdiancan">查看订单 </view>
+        <view class="endiancan">check now</view>
+      </view>
+    </view>
+    <view class="anniu_2" bindtap="gopay">
+      <view class="tubiao">
+        <image class="tubiao-image" src="../../images/diancan.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
+<!-- 中部广告 -->
+<view class="ad">
+  <image class="ad-image" src="../../images/index1.jpg"></image>
+</view>
+<!-- 底部滑块 -->
+<view class="bottom-box">
+  <scroll-view class="scroll-box" scroll-x="true">
+    <view class="inline-box">
+      <image class="bottom-image" src="../../images/bottom_4.jpg"></image>
+    </view>
+    <view class="inline-box">
+      <image class="bottom-image" src="../../images/bottom_3.jpg"></image>
+    </view>
+    <view class="inline-box">
+      <image class="bottom-image" src="../../images/bottom_1.jpg"></image>
+    </view>
+    <view class="inline-box">
+      <image class="bottom-image" src="../../images/bottom_2.jpg"></image>
+    </view>
+  </scroll-view>
+</view>

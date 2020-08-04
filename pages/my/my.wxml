@@ -1,0 +1,26 @@
+<!-- 微信头像，昵称 -->
+<view class="top-mode">
+  <view class="user">
+    <image class="touxiang" src="{{avatarUrl}}" role="img"></image>
+    <label class="nicheng">{{nickName}}</label>
+  </view>
+</view>
+<view class="mid-mode">
+  <view class="tel">
+    <view class="tel-left">
+      <image class="tel-image"></image>
+    </view>
+    <view class="tel-right"></view>
+  </view>
+</view>
+<!-- 客服电话 -->
+<view class="phone" bindtap="bitphone">
+  <label class="phone-num" style="border-bottom: 1px solid blue;">
+    客服电话：1008611
+  </label>
+</view>
+<view class="time">
+ <label class="phone-time">
+    [服务时间：周一至周五 9：00-19：00]
+  </label>
+</view>

@@ -1,0 +1,81 @@
+swiper, swiper image {
+  height: 460rpx;
+  width: 100vw;
+}
+
+.container {
+  margin-top: 30rpx;
+  height: 100rpx;
+  border: 1px solid #ff9c35;
+  text-align: center;
+  /* border-radius: 25px */
+}
+
+.anniu {
+  display: flex;
+}
+
+.anniu_1 {
+  /* display:flex;
+  justify-content:center; */
+  width: 50%;
+  margin-top: 10rpx;
+}
+
+.anniu_2 {
+  width: 50%;
+  margin-top: 10rpx;
+}
+
+.ad {
+  /* justify-content: center; */
+  text-align: center;
+  margin-top: 30rpx;
+}
+
+.ad-image {
+  width: 95%;
+  height: 350rpx;
+}
+
+.diancan {
+  float: left;
+  margin-left: 30rpx;
+}
+
+.endiancan {
+  font-size: 25rpx;
+  color: #999;
+}
+
+.tubiao {
+  float: right;
+  margin-right: 30rpx;
+}
+
+.tubiao-image {
+  height: 75rpx;
+  width: 75rpx;
+}
+
+.bottom-box {
+  /* height: 200rpx; */
+  display: flex;
+  margin-top: 30rpx;
+  justify-content: center;
+}
+
+.scroll-box {
+  white-space: nowrap;
+}
+
+.inline-box {
+  display: inline-block;
+  margin-right: 30rpx;
+}
+
+.bottom-image {
+  height: 150rpx;
+  width: 300rpx;
+  /* margin-right: 30rpx */
+}

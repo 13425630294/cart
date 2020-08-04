@@ -1,0 +1,45 @@
+.top-mode {
+  height: 450rpx;
+  background-color: #ff9c35;
+  display: block;
+}
+
+.user {
+  height: 250rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.touxiang {
+  height: 130rpx;
+  width: 130rpx;
+  border-radius: 50%;
+  /* margin-top:40rpx; *//* background-color: white; */
+  margin: 20rpx;
+}
+
+.nicheng {
+  /* margin-top: 20rpx; */
+  color: white;
+}
+
+.mid-mode{
+  height: 250rpx;
+}
+
+.phone {
+  /* margin-top: 50rpx; */
+  display: flex;
+  justify-content: center;
+  font-size: 30rpx;
+  color: blue;
+}
+
+.time {
+  margin-top: 15rpx;
+  display: flex;
+  justify-content: center;
+  font-size: 25rpx;
+  color: #999;
+}
